@@ -34,8 +34,8 @@ This project demonstrates how to build a simple **LLM-based calculator agent** u
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/dev-satish-yadav/langchain-calculator-ai.git
-cd langchain-calculator-ai
+git clone https://github.com/satish-groovy/langchain-calculator.git
+cd langchain-calculator
 ```
 
 ### 2. Install dependencies
