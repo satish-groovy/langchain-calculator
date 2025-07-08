@@ -17,7 +17,7 @@ This project demonstrates how to build a simple **LLM-based calculator agent** u
 
 - **TypeScript**
 - **LangChain**
-- **@google/generative-ai**
+- **@langchain/google-genai**
 - **dotenv** for environment management
 
 ## 📁 Folder Structure

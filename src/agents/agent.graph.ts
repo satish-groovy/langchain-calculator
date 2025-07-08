@@ -1,5 +1,3 @@
-// import { ChatGroq } from "@langchain/groq";
-// import { ChatOpenAI } from "@langchain/openai";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { MessagesAnnotation, StateGraph } from "@langchain/langgraph";
 import { ToolNode } from "@langchain/langgraph/prebuilt";
@@ -7,19 +5,9 @@ import { config } from "dotenv";
 import { calculatorTools } from "../tools/calculator.tools";
 config();
 
-// const llm = new ChatOpenAI({
-//   apiKey: process.env.OPENAI_API_KEY,
-//   modelName: "gpt-4.1",
-// });
-
-// const llm = new ChatGroq({
-//   apiKey: process.env.GROQ_API_KEY,
-//   model: "llama-3.3-70b-versatile",
-// });
-
 // LangChain implementation
 const llm = new ChatGoogleGenerativeAI({
-  model: "gemini-2.5-pro", // or "gemini-1.5-pro-latest" for newer models
+  model: "gemini-2.5-pro",
   apiKey: process.env.GEMINI_API_KEY,
 });
 
